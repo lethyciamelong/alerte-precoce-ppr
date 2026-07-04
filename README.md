@@ -51,9 +51,11 @@ Le dictionnaire de données complet est disponible dans [`Dictionnaire_PPR.docx`
 ## Structure du repository
 
 ```
-├── PPR_Prediction.ipynb        # Notebook complet (EDA → prétraitement → modélisation → évaluation)
+├── PPR_Prediction.ipynb         # Notebook complet (EDA → prétraitement → modélisation → évaluation)
 ├── Data_PPR.xlsx                # Jeu de données brut
 ├── Dictionnaire_PPR.docx        # Dictionnaire des données
+├── modeling_results.joblib      # Modèles sauvegardés 
+├── preprocessed_data.joblib     
 └── README.md
 ```
 
